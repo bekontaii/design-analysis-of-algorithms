@@ -8,12 +8,12 @@ public class Counters {
     public int maxDepth = 0;
     private int curDepth = 0;
 
-    public void enter() { // вход в рекурсивную функцию
+    public void enter() { 
         curDepth++;
         if (curDepth > maxDepth) maxDepth = curDepth;
     }
 
-    public void exit() { // выход из рекурсивной функции
+    public void exit() { 
         curDepth--;
     }
 
