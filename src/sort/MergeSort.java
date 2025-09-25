@@ -4,7 +4,7 @@ import metrics.Counters;
 
 
 public class MergeSort {
-    private static final int CUTOFF = 16; // если кусок <= 16 → insertion sort
+    private static final int CUTOFF = 16; 
 
     public static void sort(int[] arr, Counters c) {
         int[] buffer = new int[arr.length];
