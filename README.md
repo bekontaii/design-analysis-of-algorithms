@@ -45,18 +45,20 @@ Master theorem, Case 2 → `T(n) = Θ(n log n)`.
 ### Running time (time vs n)
 The plot shows MergeSort and QuickSort growing as `n log n`,  
 Select close to linear, and Closest Pair also `n log n` but with larger constants.
+<img width="1697" height="1102" alt="график11" src="https://github.com/user-attachments/assets/6c3799e4-e5d8-492d-81b1-5ae80be6f405" />
 
 
-<img width="1697" height="1102" alt="график11" src="https://github.com/user-attachments/assets/1b74f376-caa1-4f91-9730-50367ee90cac" />
+
 
 ---
 
 ### Recursion depth (depth vs n)
 MergeSort depth grows logarithmically, QuickSort also stays `O(log n)`  
 with some variation due to random pivots.
+<img width="1687" height="1102" alt="график22" src="https://github.com/user-attachments/assets/1649c052-961d-49a8-b874-3d5d703cdbe4" />
 
 
-<img width="1687" height="1102" alt="график22" src="https://github.com/user-attachments/assets/c2800e8e-f46d-4583-838c-374a73177bc2" />
+
 
 ---
 
